@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+.env
+.pytest_cache/
+*.pt
+*.caffemodel
+# Large object-detection model (~35MB) — fetch via scripts/download_models.py.
+# The tiny YuNet face model IS committed so face detection works out of the box.
+models/object_detection_yolox.onnx
+uploads/
+.DS_Store
+*.egg-info/
